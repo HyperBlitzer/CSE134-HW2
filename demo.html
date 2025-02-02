@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jose Arreguin">
+        <title>Misc HTML Demos</title>
+        <style>
+            aside {
+                display: inline;
+                font-style: italic;
+                color:slategrey
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Welcome to random HTML elements</h2>
+        </header>
+        <nav>
+            <a href="index.html">main page </a>
+        </nav>
+        <main>
+            <pre>
+                A
+               AAA
+              AAAAA
+             AAAAAAA
+             AAAAAAA
+               AAA
+               AAA
+            </pre>
+            <div class="soup">
+                <h2>Testing Text Tags</h2>
+                <p>Some words could be <b>bolded</b>. While others can be <i>italisized</i>. Some could even be <em>emphasised</em>.</p>
+                <p>Sometimes many words <strong>could hold importance</strong>.</p>
+            </div>
+
+            <p>The command to copy is <kbd>ctrl</kbd> + <kbd>c</kbd></p>
+            <code>float price = 3.14</code>
+            <aside>//This code asigns a float variable named price to the value of 3.14</aside>
+            <hr>
+            <p>For the next html elements that I will mess around with, I will try to theme it around birds</p>
+
+            <hgroup>
+                <h2>Most Unique Birds</h2>
+                <h4>In No Particular Order</h4>
+            </hgroup>
+            <ul>
+                <li>Kakapo</li>
+                <li>Secretary Bird</li>
+                <li>Shoebill Stork</li>
+            </ul>
+
+            <h2>My Favorite Birds</h2>
+            <ol>
+                <li>Shoebill Stork</li>
+                <li>Toucan</li>
+                <li>Puffins</li>
+            </ol>
+
+            <details>
+                <summary>Shoebill Stork</summary>
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="8" fill="red"/>
+                </svg>
+                <p><span style="color:fuchsia">Shoebill storks</span> are large, striking birds native to tropical East Africa, particularly in swampy areas of South Sudan, Uganda, and Zambia. 
+                   Known for their massive, shoe-shaped bills, they are solitary hunters, preying primarily on fish, amphibians, and small reptiles. 
+                   Despite their intimidating appearance, they are relatively calm and reserved birds. 
+                   Shoebills are considered vulnerable due to habitat loss and human disturbances.</p>
+            </details>
+
+
+
+
+            <label for="random-bird">Choose A Bird</label>
+            <select id="random-bird">
+                <optgroup label="Flighted Birds">
+                    <option>Toucan</option>
+                    <option>Quetzal</option>
+                    <option>Barn Owl</option>
+                </optgroup>
+                <optgroup label="Flightless Birds">
+                    <option>Penguin</option>
+                    <option>Kiwi</option>
+                    <option>Ostrich</option>
+                </optgroup>
+            </select>
+
+            <br/>
+
+            <fieldset>
+                <legend>Favorite blue bird?</legend>
+
+                <input type="radio" id="blue-jay" name="bird" value="b"/>
+                <label for="blue-jay">Blue Jay</label><br/>
+              
+                <input type="radio" id="indian-roller" name="bird" value="i"/>
+                <label for="indian-roller">Indian Roller</label><br/>
+              
+                <input type="radio" id="hyacinth-macaw" name="bird" value="h"/>
+                <label for="hyacinth-macaw">Hyacinth Macaw</label>
+            </fieldset>
+
+            <br>
+
+            <template>
+                <h3>Random Bird</h3>
+                <img src="images/7tiqg3rdos_Original_WW288937.jpg">
+            </template>
+
+            <br>
+
+            <label for="pick-bird">Least Favorite Bird?</label>
+            <input list="manyBirds" id="pick-bird">
+            <datalist id="manyBirds">
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+                <option>cassowary</option>
+            </datalist>
+
+            <p> The <dfn><abbr title="Mallard Duck">MALL</abbr></dfn> is a species of dabbling duck that is commonly found in wetlands, 
+                lakes, rivers, and ponds across North America, Europe, and parts of Asia.
+            </p>
+
+            <figure>
+                <img src="images/Secretary_bird_Mara_for_WC.jpg" width = 30% alt="secretary bird walking">
+                <figcaption>Secretary Bird Walking</figcaption>
+            </figure>
+
+            <table>
+                <caption>
+                    <b>Bird Wingspan</b>
+                </caption>
+                <colgroup>
+                    <col span="2" class="names">
+                    <col span="1" class="info">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">Common Name</th>
+                        <th scope="col">Scientific Name</th>
+                        <th scope="col">Wingspan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>American Woodcock</td>
+                        <td>Scolopax minor</td>
+                        <td>46cm</td>
+                    </tr>
+                    <tr>
+                        <td>Great Egret</td>
+                        <td>Ardea alba</td>
+                        <td>130cm</td>
+                    </tr>
+                    <tr>
+                        <td>Osprey</td>
+                        <td>Pandion haliaetus</td>
+                        <td>160cm</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <figure>
+                <blockquote>
+                    <p>Then this ebony bird beguiling my sad fancy into smiling,
+                        By the grave and stern decorum of the countenance it wore,
+                        “Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
+                        Ghastly grim and ancient Raven wandering from the Nightly shore—
+                        Tell me what thy lordly name is on the Night’s Plutonian shore!”
+                                    Quoth the Raven “Nevermore.”</p>
+                </blockquote>
+                <figcaption>
+                    Paragraph in <cite><a href="https://www.poetryfoundation.org/poems/48860/the-raven">The Raven</a></cite>, by Edgar Allan Poe
+                </figcaption>
+            </figure>
+
+            <br>
+
+            <p>Mythical Birds</p>
+
+            <dl>
+                <dt>Pheonix</dt>
+                <dd>an immortal bird that cyclically regenerates or is otherwise born again</dd>
+                <dt>Alicanto</dt>
+                <dd>bird with luminescent feathers which feeds on gold or silver</dd>
+                <dt>Hugin and Munin</dt>
+                <dd>two ravens that serve as messangers</dd>
+            </dl>
+
+            <br>
+
+            <h2>Bird Search</h2>
+            <search>
+                <form action="javascript:void(0)">
+                    <label for="bird-search">Search for a bird</label>
+                    <input type="search" id="bird-search">
+                    <button type="submit">Search</button>
+                </form>
+            </search>
+
+            <picture>
+                <source media="(min-width:700px)" srcset="images/7tiqg3rdos_Original_WW288937.jpg">
+                <img src="images/297087301-480px.jpg">
+            </picture>
+
+
+            <p>This text has been here</p>
+            <del>
+                <p>This text will be deleted</p>
+            </del>
+            <ins>
+                <p>This text will be added</p>
+            </ins>
+
+            <br>
+
+            <textarea rows="5" cols="15">
+                There was a hooded crow, a carrion crow, and a sunda crow 
+            </textarea>
+
+            <br>
+
+            <iframe
+                title="SDZOO"
+                width="500"
+                height="500"
+                src="https://zoo.sandiegozoo.org/sites/default/files/2021-10/10-01-21_ZOO-Map-Front.pdf">
+            </iframe>
+
+            <audio>
+                <source src="assets/birds-chirping-75156.mp3" type="audio/mp3"> 
+            </audio>
+
+            <br>
+
+            <video width="400" height="300" controls>
+                <source src="assets/187970-881517500_tiny.mp4" type="video/mp4">
+            </video>
+
+            <address>302 Island Ave #101, San Diego, CA 92101</address>
+
+            <canvas id="testCanvas" width="150" height="150"></canvas>
+            <script>
+                let canvas = document.getElementById("testCanvas");
+                let ctx = canvas.getContext("2d");
+
+                gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+                gradient.addColorStop(0, 'purple');
+                gradient.addColorStop(1, 'orange');
+
+                ctx.fillStyle = gradient;
+                ctx.fillRect(0,0, canvas.width, canvas.height);
+            </script>
+
+            <noscript>
+                <p>There would be a create looking canvas here</p>
+            </noscript>
+
+            <hello-world></hello-world>
+
+            <!-- THIS CUSTOM ELEMENT WAS CREATED USING AI -->
+            <script>
+                class HelloWorld extends HTMLElement {
+                    constructor() {
+                        super();
+                    }
+        
+                    connectedCallback() {
+                        console.log("Hello world!");
+                    }
+                }
+                customElements.define('hello-world', HelloWorld);
+            </script>
+
+            <br>
+            
+            <math>
+                <mi>E</mi>
+                <mo>=</mo>
+                <mi>m</mi>
+                <msup>
+                    <mi>c</mi>
+                    <mn>2</mn>
+                </msup>
+            </math>
+
+            <br>
+
+            <dialog open>
+                <p>Press YES if you hate cassowaries</p>
+                <form method="dialog">
+                    <button>YES</button>
+                </form>
+            </dialog>
+        </main>
+    </body>
+</html>
